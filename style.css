@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    margin-bottom: 10px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.header_img{
+    width: 70%;
+    font-size: 50px;
+    color: blue;
+    margin: 15px 0  0 40px;
+}
+
+.slogan{
+    width: 30%;
+    color: red;
+    margin-top: 40px;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    background-color: #66ffcc;
+    margin-bottom: 10px;
+}
+
+.navbar{
+    width: 85%;
+}
+
+.search{
+    width: 15%;
+    padding-top: 5px;
+}
+
+.navbar>ul{
+    display: flex;
+}
+
+.navbar>ul>li{
+    list-style-type: none;
+    line-height: 40px;
+    width: 16.67%;
+    text-align: center;
+}
+
+.navbar ul li:hover{
+    background-color: #ffcccc;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.dropdown{
+    position:relative;
+}
+
+.dropdown ul li{
+    list-style-type: none;
+    line-height: 30px;
+    padding-left: 15px;
+}
+
+.dropdown ul li a{
+    color: black;
+}
+
+.dropdown_content{
+    position: absolute;
+    border: 2px solid #999;
+    display: none;
+    background-color: #66ffcc;
+    width: 250px;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+.dropdown_content>li:hover{
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+}
+
+.search{
+    margin-top: 5px;
+}
+
+.infor{
+    border: 1px solid #999;
+    margin-top: 10px;
+}
+
+.col{
+    display: flex;
+    margin: 10px;
+}
+
+.sort_info{
+    width: 90%;
+    padding-left: 20px;
+}
+
+.watch{
+    width: 10%;
+}
+
+.title{
+    color: white;
+    background-color: #66ff66;
+    line-height: 30px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.list_product{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: space-between;
+    
+}
+
+.product_detail{
+    width: calc(25% - 40px);
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #999;
+    text-align: center;
+    box-shadow: 3px 3px rgb(233, 227, 227);
+}
+
+.product_img{
+    width: 150px;
+    height: 200px;
+}
+
+.product_name{
+    font-size: 16px;
+    color: #330066;
+    font-weight: 600;
+}
+
+.contact{
+    color: red;
+}
+
+.windows{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.list{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border: 1px solid #999;
+}
+
+i{
+    padding: 2px;
+    cursor: pointer;
+}
+
+.watch{
+    display: flex;
+}
+
+
+
